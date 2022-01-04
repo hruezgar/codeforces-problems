@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
 
 int main(){
@@ -15,6 +17,7 @@ int main(){
 			}
 		}
 	}
-	cout << "1 in oldugu x: " << xvalue << endl << "1 in oldugu y: " << yvalue;
+	cout << (abs(3 - xvalue) + abs(3 - yvalue)) << endl;
+	//cout << "1 in oldugu x: " << xvalue << endl << "1 in oldugu y: " << yvalue;
 	
 }
