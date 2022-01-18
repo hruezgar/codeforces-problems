@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int ebob(int x, int y){
-	if (y == 0){
-		return x;
-	} else {
-		return ebob(y, x % y);
-	}
-}
+
 int main(){
-	cout << ebob(20, 16);
+	long n, l, r;
+	cin >> n >> l >> r;
+	long counter = 0;
+	counter += n - l;
+	for(long i = n; i <= r; i++){
+		long corr = i ^ n;
+		if(corr < n){
+			counter++;
+		}
+	}
+	cout << counter;
 	
 }
