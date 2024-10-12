@@ -1,4 +1,1 @@
-# codeforces-problems
- 
-Hi,
-I recently started solving coding problems on codeforces.com and thought "Why not document my journey?". And so thats what I did!
+Includes some of the problems i solved on **codeforces** and **leetcode**. Some of them were solved earlier on my programming journey but I still included them for nostalgic purposes.
